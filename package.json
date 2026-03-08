@@ -1,0 +1,11 @@
+{
+  "name": "ai-bootstrap",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "ai-bootstrap": "./bin/ai-bootstrap.js"
+  },
+  "dependencies": {
+    "openai": "^4.0.0"
+  }
+}

@@ -16,6 +16,7 @@ It is used by developers and AI agents to understand where code lives.
   - 📄 project-overview.md
   - 📁 prompts
     - 📄 task-template.md
+  - 📄 repo-map.md
 - 📁 bin
   - 📄 ai-bootstrap.js
 - 📄 package.json

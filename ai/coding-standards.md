@@ -9,6 +9,6 @@
 
 ## Testing
 
-- Detected framework: Unknown.
+- Detected tools: .
 - Add tests near implementation or under a dedicated `tests/` folder.
 - Cover core paths and feature behavior.

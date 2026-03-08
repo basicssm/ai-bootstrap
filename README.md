@@ -15,6 +15,14 @@ Al ejecutar `ai-bootstrap`:
 5. Detecta mapa de features si encuentra `src/features`, `src/modules` o `src/domains`.
 6. Genera documentación en `/ai`.
 
+Frameworks detectados (entre otros):
+
+- Next.js, React, React Native, Vue, Nuxt, Svelte, Angular, Astro
+- Ember
+- Lit y Lit 3
+
+También detecta herramientas de testing comunes (Jest, Vitest, Cypress, Playwright, QUnit, etc.).
+
 ## Archivos que genera
 
 Salida actual:

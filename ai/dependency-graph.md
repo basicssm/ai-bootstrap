@@ -28,6 +28,7 @@ This file describes internal module dependencies.
 ## /Users/sergio/dev/ai-bootstrap/src/detectStack.js
 
 → fs
+→ path
 
 ## /Users/sergio/dev/ai-bootstrap/src/generateDependencyGraph.js
 

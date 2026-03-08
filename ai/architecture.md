@@ -7,5 +7,6 @@
 
 ## Top-level folders
 
+- ai
 - bin
 - src

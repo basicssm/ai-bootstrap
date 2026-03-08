@@ -68,15 +68,18 @@ function generateDocsLocally(context) {
   const topLevel = context.structure
     .filter(node => node.type === "folder")
     .map(node => node.name)
+  const frameworksLine = (context.stack.frameworks || [context.stack.framework]).join(", ")
+  const testingLine = (context.stack.testingTools || [context.stack.testing]).join(", ")
 
   const projectOverview = `# Project Overview
 
 ## Stack
 
-- Framework: ${context.stack.framework}
+- Frameworks: ${frameworksLine}
 - Language: ${context.stack.language}
-- Testing: ${context.stack.testing}
+- Testing: ${testingLine}
 - Package manager: ${context.stack.packageManager}
+- Runtime: ${context.stack.runtime || "Unknown"}
 
 ## Run
 
@@ -115,7 +118,7 @@ ${topLevel.length ? topLevel.map(folder => `- ${folder}`).join("\n") : "- No fol
 
 ## Testing
 
-- Detected framework: ${context.stack.testing}.
+- Detected tools: ${testingLine}.
 - Add tests near implementation or under a dedicated \`tests/\` folder.
 - Cover core paths and feature behavior.
 `

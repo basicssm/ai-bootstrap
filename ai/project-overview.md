@@ -2,10 +2,11 @@
 
 ## Stack
 
-- Framework: Unknown
+- Frameworks: 
 - Language: JavaScript
-- Testing: Unknown
+- Testing: 
 - Package manager: npm
+- Runtime: Node.js
 
 ## Run
 

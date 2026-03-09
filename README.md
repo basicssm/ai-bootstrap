@@ -146,6 +146,51 @@ Ideas de mejora:
 - Mejoras en análisis de monorepos.
 - Integración con CI.
 
+## Calidad y versionado
+
+Este proyecto incluye una base profesional de calidad:
+
+- `ESLint` para reglas de código.
+- `Prettier` para formato.
+- `Vitest` para tests unitarios.
+- `husky` + `lint-staged` para validar cambios antes de commit.
+- GitHub Actions para ejecutar `lint`, `format:check` y `test` en PR/push.
+- `changesets` para versionado y changelog con SemVer.
+
+Instalación local de dependencias:
+
+```bash
+npm install
+```
+
+Comandos principales:
+
+```bash
+npm run lint
+npm run lint:fix
+npm run format
+npm run format:check
+npm run test
+npm run test:watch
+npm run test:coverage
+npm run check
+```
+
+Versionado (Changesets):
+
+```bash
+npm run changeset
+npm run version-packages
+```
+
+Convención recomendada de commits:
+
+- `feat: ...` para nuevas funcionalidades
+- `fix: ...` para correcciones
+- `chore: ...` para mantenimiento
+- `docs: ...` para documentación
+- `test: ...` para tests
+
 ## Licencia
 
 MIT
